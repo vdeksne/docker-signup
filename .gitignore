@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Vite / build outputs
+frontend/dist/
+dist/
+
+# Editor directories
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Secrets
+db/pg_password.txt
